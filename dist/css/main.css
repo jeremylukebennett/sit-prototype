@@ -29,6 +29,25 @@ body {
 .dropdown {
   margin: 0 0 0 -9%; }
 
+.dropdown-menu {
+  position: absolute;
+  top: 2em;
+  left: -9em;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: .25rem; }
+
 .btn.btn-primary {
   width: 13em; }
 
@@ -49,6 +68,9 @@ body {
 .sliderListItemsSound {
   list-style: none;
   margin: 0 0 0 -2.7em; }
+
+.slider-titles {
+  font-weight: 700; }
 
 input[type=range] {
   -webkit-appearance: none;

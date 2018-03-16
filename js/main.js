@@ -1,4 +1,4 @@
 "use strict";
 
-var $ = require("jquery");
-require('bootstrap');
+// var $ = require("jquery");
+// require('bootstrap');
