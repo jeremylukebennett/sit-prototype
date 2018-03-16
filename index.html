@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sit Prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Madurai:400,700" rel="stylesheet">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="dist/css/main.css" />
+</head>
+<body>
+    
+  
+  
+  
+  
+  <header id="main-header">
+      <div class="navbar navbar-expand-sm" id="nav-bar-container">
+          <h1 class="mx-auto">Sit.</h1>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              | | |
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2" id="menu-options">
+              <button class="dropdown-item" type="button">How to Use</button>
+              <button class="dropdown-item" type="button">About</button>
+              <button class="dropdown-item" type="button">Login/Sign Up</button>
+            </div>
+          </div>
+      </div>
+  </header>
+
+
+
+    <!-- Start Sliders -->
+
+
+<!-- Length Slider -->
+    <form id="sliderData1">
+
+        <div class="form-group" id="testing-width">
+          <label for="length-setting" class="slider-titles">Length:</label>
+          <input id="slider1" type="range" min="0" max="5" value="0">
+          <span></span>
+          <ul class="rangeSliderLabels">
+            <li class="sliderListItemsLength">5</li> 
+            <li class="sliderListItemsLength">10</li> 
+            <li class="sliderListItemsLength">15</li> 
+            <li class="sliderListItemsLength">20</li> 
+            <li class="sliderListItemsLength">25</li> 
+            <li class="sliderListItemsLength">30</li>
+          </ul>
+        </div>
+
+      </form>
+
+      <!-- Interval Slider -->
+    <form id="sliderData2">
+
+        <div class="form-group" id="testing-width">
+          <label for="interval-setting" class="slider-titles">Interval:</label>
+          <input id="slider2" type="range" min="0" max="5" value="0">
+          <span></span>
+          <ul class="rangeSliderLabels">
+              <li class="sliderListItemsInterval">None</li> 
+              <li class="sliderListItemsInterval">1</li> 
+              <li class="sliderListItemsInterval">2</li> 
+              <li class="sliderListItemsInterval">3</li> 
+              <li class="sliderListItemsInterval">4</li> 
+              <li class="sliderListItemsInterval">5</li>
+          </ul>
+        </div>
+
+      </form>
+
+      <!-- Sound Slider -->
+    <form id="sliderData3">
+
+        <div class="form-group" id="testing-width">
+          <label for="sound-setting" class="slider-titles">Sound:</label>
+          <input id="slider3" type="range" min="0" max="2" value="0">
+          <span></span>
+          <ul class="rangeSliderLabels">
+            <li class="sliderListItemsSound">Bell</li> 
+            <li class="sliderListItemsSound">Block</li> 
+            <li class="sliderListItemsSound">Tone</li> 
+          </ul>
+        </div>
+
+      </form>
+
+
+   <!-- Sit Button -->
+      <div class="text-center" id="sit-btn-container">
+        <button type="button" class="btn btn-primary" id="sit-btn">Sit!</button>
+      </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="dist/app.js"></script>
+    
+</body>
+</html>
