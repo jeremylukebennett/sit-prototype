@@ -27,20 +27,25 @@ body {
 // Header menu dropdown
 #dropdownMenu2 { 
     color: black;
-    background-color: white;
+    background-color: #ffffff;
     border: none;
     position: absolute;
     right: 10%;
-    top: 5%;
+    padding-bottom: 0em;
+    top: -1.2em;
 }
 
-#sliderData1, #sliderData2, #sliderData3 {
+#sliderData1 {
     padding: 3em 0 0 0;
+}
+
+#sliderData2, #sliderData3 {
+    padding: 2em 0 0 0;
 }
 
 #sit-btn-container {
 
-    margin: 8em auto 0 auto; 
+    margin: 5em auto 0 auto; 
 }
 
 #length-label {
@@ -53,7 +58,9 @@ body {
 
 }
 
-
+#sit-header-title {
+    margin-bottom: auto;
+}
 
 // Class Selectors ========================================================================================
 .dropdown {
@@ -63,7 +70,7 @@ body {
 .dropdown-menu {
 
     position: absolute;
-    top: 2em;
+    top: 0.7em;
     left: -9em;
     z-index: 1000;
     display: none;
@@ -95,21 +102,29 @@ body {
 .sliderListItemsLength {
     list-style: none;
     margin: 0 1em 0 -2em;
+    font-size: 14px;
 }
 
 .sliderListItemsInterval {
     list-style: none;
     margin: 0 0.4em 0 -3.9em;
+    font-size: 14px;
 }
 
 .sliderListItemsSound {
     list-style: none;
     margin: 0 0 0 -2.7em;
+    font-size: 14px;
 }
 
 .slider-titles {
+    margin-bottom: 0em;
     font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 0em;
 }
+
+
 
 
 // Range Slider Stylings ========================================================================================
