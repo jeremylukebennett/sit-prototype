@@ -66,11 +66,22 @@ body {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-.sliderListItems {
-    // display: inline-block;
-    // padding: 0 3.4em;
+.sliderListItemsLength {
+    list-style: none;
+    margin: 0 1em 0 -2em;
+}
+
+.sliderListItemsInterval {
+    list-style: none;
+    margin: 0 0.4em 0 -3.9em;
+}
+
+.sliderListItemsSound {
+    list-style: none;
+    margin: 0 0 0 -2.7em;
 }
 
 
@@ -81,6 +92,7 @@ input[type=range] {
     -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
     width: 98%; /* Specific width is required for Firefox. */
     background: transparent; /* Otherwise white in Chrome */
+    margin: 0 0 1em 0;
   }
   
   input[type=range]::-webkit-slider-thumb {
